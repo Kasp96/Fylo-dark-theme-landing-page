@@ -1,0 +1,29 @@
+:root {
+	--ff-primary: 'Open Sans', sans-serif;
+	--ff-secondary: 'Raleway', sans-serif;
+
+	--bg-main: hsl(218, 28%, 13%);
+	--bg-intro: hsl(217, 28%, 15%);
+	--bg-footer: hsl(216, 53%, 9%);
+	--bg-testimonials: hsl(219, 30%, 18%);
+
+	--clr-light-blue: hsl(176, 68%, 64%);
+	--clr-blue: hsl(198, 60%, 50%);
+	--clr-error: hsl(0, 100%, 63%);
+	--clr-white: hsl(0, 0%, 100%);
+
+	--fw-s: 400;
+	--fw-m: 500;
+	--fw-l: 600;
+	--fw-xl: 700;
+}
+
+// fw-normal: Ustawia wagę czcionki na normalną.
+// fw-bold: Ustawia wagę czcionki na pogrubioną (bold).
+// fw-light: Ustawia wagę czcionki na lekką.
+// fw-lighter: Ustawia wagę czcionki na jeszcze lżejszą niż light.
+// fw-bolder: Ustawia wagę czcionki na jeszcze bardziej pogrubioną niż bold.
+
+// for headings, call to aactions header navigation use raleway
+
+// for body open sans

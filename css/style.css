@@ -1,0 +1,53 @@
+:root {
+  --ff-primary: "Open Sans", sans-serif;
+  --ff-secondary: "Raleway", sans-serif;
+  --bg-main: hsl(218, 28%, 13%);
+  --bg-intro: hsl(217, 28%, 15%);
+  --bg-footer: hsl(216, 53%, 9%);
+  --bg-testimonials: hsl(219, 30%, 18%);
+  --clr-light-blue: hsl(176, 68%, 64%);
+  --clr-blue: hsl(198, 60%, 50%);
+  --clr-error: hsl(0, 100%, 63%);
+  --clr-white: hsl(0, 0%, 100%);
+  --fw-s: 400;
+  --fw-m: 500;
+  --fw-l: 600;
+  --fw-xl: 700;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #777;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.navbar {
+  background-color: var(--bg-intro);
+}
+
+.header {
+  background-image: url("../images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: var(--bg-intro);
+}
+.header h1 {
+  font-size: 1.5rem;
+  color: var(--clr-white);
+  font-family: var(--ff-secondary);
+}
+.header p {
+  margin-inline: 2rem;
+  font-size: 0.85rem;
+  color: var(--clr-white);
+}/*# sourceMappingURL=style.css.map */
